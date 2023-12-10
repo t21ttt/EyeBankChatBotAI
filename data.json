@@ -1,0 +1,132 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {
+        "tag": "options",
+        "patterns": ["How can you help me?", "What can you do?", "What help do you provide?", "How can you be helpful?", "What support is offered?"],
+        "responses": ["I can provide information and guidance on various topics related to corneas and cornea transplantation. Here are some areas I can assist you with:\n\n1. What is the cornea?\n2. How to collect corneas for transplantation?\n3. How to register as a cornea donor?\n4. How to screen potential cornea donors?\n5. What is a serology test?\n6. What is an ocular post?\n7. How are serology tests performed?\n8. How to record medical particulars of cornea donors?\n9. How to evaluate the quality of a cornea?\n10. How do doctors request corneas for transplantation?\n11. How many doctors specialize in cornea transplant surgeries?\n12. Where is the nearest eye bank located?"],
+        "context": [""]
+      },
+    
+    {
+        "tag": "cornea",
+        "patterns": ["What is the cornea?", "Tell me about the cornea", "What does the cornea do?", "Function of the cornea"],
+        "responses": ["The cornea is the transparent front part of the eye that covers the iris, pupil, and anterior chamber. It plays a crucial role in focusing light onto the retina."],
+        "context": [""]
+      },
+      {
+        "tag": "cornea_cures",
+        "patterns": ["How to cure cornea problems?", "Treatment options for cornea issues", "Ways to treat cornea diseases", "Cornea problem remedies"],
+        "responses": ["The treatment for cornea problems depends on the specific condition. It can range from medications and eye drops to surgical interventions such as corneal transplantation or laser procedures. It is best to consult an ophthalmologist for proper diagnosis and treatment recommendations."],
+        "context": [""]
+      },
+      {
+        "tag": "cornea_hospitals",
+        "patterns": ["Which hospitals specialize in cornea transplantation?", "Recommended hospitals for cornea transplant", "Where can I get a cornea transplant?", "Best hospitals for cornea surgery"],
+        "responses": ["Some recommended hospitals for cornea transplantation include:\n1. Hospital A\n2. Hospital B\n3. Hospital C\nPlease note that availability and quality of services may vary. It is advisable to consult with a healthcare professional for personalized recommendations."],
+        "context": [""]
+      },
+      {
+        "tag": "cornea_info",
+        "patterns": ["What is the cornea?", "Tell me about the cornea", "What does the cornea do?", "Function of the cornea"],
+        "responses": ["The cornea is the transparent front part of the eye that covers the iris, pupil, and anterior chamber. It plays a crucial role in focusing light onto the retina."],
+        "context": [""]
+      },
+      {
+        "tag": "cornea_donation",
+        "patterns": ["How to register as a cornea donor?", "Process of becoming a cornea donor", "Cornea donation registration", "How to donate corneas"],
+        "responses": ["To register as a cornea donor, you can contact your local eye bank or organ donation organization. They will provide you with the necessary information and guide you through the registration process."],
+        "context": [""]
+      },
+      {
+        "tag": "collect_cornea",
+        "patterns": ["How to collect corneas for transplantation?", "Process of collecting corneas", "Cornea collection methods", "Collecting corneas for surgery"],
+        "responses": ["Collecting corneas for transplantation is typically done by trained professionals, such as ophthalmologists or eye bank technicians. The process involves careful removal of the cornea from a deceased donor's eye shortly after death. The cornea is then preserved and prepared for transplantation."],
+        "context": [""]
+      },
+      {
+        "tag": "donor_screening",
+        "patterns": ["How to screen cornea donors?", "Donor screening process for corneas", "Cornea donor eligibility criteria", "Screening potential cornea donors"],
+        "responses": ["Screening potential cornea donors involves a thorough evaluation of their medical history, including any infectious diseases or conditions that may affect the suitability of the corneas for transplantation. It may also include serology tests to check for specific infections or diseases."],
+        "context": [""]
+      },
+      {
+        "tag": "serology_test",
+        "patterns": ["What is a serology test?", "Definition of serology test", "Purpose of serology tests", "How are serology tests performed?"],
+        "responses": ["A serology test is a blood test that detects and measures the presence of antibodies or antigens related to specific infections or diseases. It is used to determine if a person has been exposed to a particular pathogen or has developed immunity against it. The test is typically performed by collecting a blood sample from the individual and analyzing it in a laboratory."],
+        "context": [""]
+      },
+      {
+        "tag": "evaluate_cornea",
+        "patterns": ["How to evaluate the quality of a cornea?", "Cornea evaluation process", "Assessing cornea suitability for transplantation", "Quality assessment of corneas"],
+        "responses": ["The evaluation of a cornea for transplantation involves various factors, including visual acuity, tissue clarity, endothelial cell count, and absence of significant defects or diseases. Ophthalmologists and eye bank professionals use specialized techniques and instruments to assess the cornea's suitability for transplantation."],
+        "context": [""]
+      },
+      {
+        "tag": "doctor_request_cornea",
+        "patterns": ["How do doctors request corneas for transplantation?", "Process of requesting corneas for surgery", "Obtaining corneas for transplant surgeries", "Cornea request procedure for doctors"],
+        "responses": ["Doctors can request corneas for transplantation from their local eye banks or organ procurement organizations. They need to provide the necessary patient information and details about the surgery. The eye bank will then assess the availability and suitability of corneas for the specific case."],
+        "context": [""]
+      },
+      {
+        "tag": "cornea_specialists",
+        "patterns": ["How many doctors specialize in cornea transplant surgeries?", "Number of cornea transplant specialists", "Cornea transplantation experts", "Finding doctors skilled in cornea surgeries"],
+        "responses": ["The number of doctors specializing in cornea transplant surgeries may vary depending on the region and healthcare system. It is best to consult with your local ophthalmology or eye care center to find doctors who have expertise in cornea transplantation."],
+        "context": [""]
+      },
+      {
+        "tag": "eye_bank_location",
+        "patterns": ["Where is the nearest eye bank located?", "Location of the eye bank", "Find an eye bank near me", "Nearest eye bank"],
+        "responses": ["To find the nearest eye bank, you can contact your local hospital, ophthalmology department, or organ donation organization. They will be able to provide you with information about the location and contact details of the nearest eye bank."],
+        "context": [""]
+      },
+      {
+        "tag": "lab_technicians",
+        "patterns": ["How many lab technicians are involved in cornea transplantation?", "Number of lab technicians in cornea surgeries", "Role of lab technicians in cornea transplantation", "Cornea transplantation lab staff"],
+        "responses": ["The number of lab technicians involved in cornea transplantation may vary depending on the size and capacity of the eye bank or hospital. Multiple lab technicians may be involved in different stages of cornea collection, processing, and evaluation to ensure the quality and safety of the corneas."],
+        "context": [""]
+      },
+      {
+        "tag": "donor_medical_records",
+        "patterns": ["How to record medical particulars of cornea donors?", "Recording donor medical information for cornea transplantation", "Donor medical records for cornea donation", "Managing cornea donor data"],
+        "responses": ["Recording the medical particulars of cornea donors is typically done by the eye bank or organ donation organization. They maintain comprehensive records that include donor information, medical history, serology test results, and other relevant details. This information is crucial for ensuring the safety and suitability of corneas for transplantation."],
+        "context": [""]
+      },
+      {
+        "tag": "ocular_post",
+        "patterns": ["How to send an ocular post?", "Process of sending ocular tissue", "Sending corneas for transplantation", "Ocular post procedure"],
+        "responses": ["Sending ocular tissue, such as corneas, for transplantation is typically done by trained professionals in the eye bank or hospital. The process involves careful packaging and transportation of the corneas to the recipient hospital, following specific guidelines and regulations to maintain the quality and viability of the tissue."],
+        "context": [""]
+      },
+      {
+        "tag": "adverse_reaction",
+        "patterns": ["What is an adverse reaction?", "Definition of adverse reaction", "Types of adverse reactions", "Adverse reaction in medical context"],
+        "responses": ["An adverse reaction refers to an unexpected or harmful response that occurs after exposure to a medication, treatment, or substance. It can manifest as various symptoms or side effects and may require medical attention or intervention. Adverse reactions are an important consideration in healthcare to ensure patient safety and well-being."],
+        "context": [""]
+      },
+      {
+        "tag": "eye_bank_ethiopia",
+        "patterns": ["How can I get information about the Eye Bank of Ethiopia?", "Details about the Eye Bank of Ethiopia", "Contact information for the Eye Bank of Ethiopia", "Eye Bank of Ethiopia services"],
+        "responses": ["To get information about the Eye Bank of Ethiopia, you can contact the Ministry of Health or the Ethiopian Red Cross Society. They can provide you with details about the Eye Bank's services, locations, and contact information."],
+        "context": [""]
+      }
+]
+}
